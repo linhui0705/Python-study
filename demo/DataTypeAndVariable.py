@@ -1,3 +1,4 @@
+# coding=utf-8
 '''
 字符串
 '''
@@ -84,4 +85,44 @@ Answer=True
 print(a)
 print(t_007)
 print(Answer)
+print('--------------------')
+a = 'ABC'
+b = a
+a = 'XYZ'
+print(a + "," + b)
 print('----------------------------------------')
+'''
+常量
+在Python中，通常用全大写的变量名表示变量
+但事实上PI仍然是一个变量，Python没有任何机制保证PI不会被改变
+
+除法的计算结果是浮点数，即使两个整数恰好整除，结果也是浮点数
+
+还有一种除法是//，称为地板除，两个整数的除法仍然是整数
+
+余数运算，求模：%
+'''
+print('【常量】')
+PI = 3.14159265358972384626433
+print(PI)
+print(10/3)
+print(9/3)
+print(10//3)
+print(10%3)
+print('----------------------------------------')
+
+print('【练习】')
+# -*- coding: utf-8 -*-
+n = 123
+f = 456.789
+s1 = 'Hello, world'
+s2 = 'Hello, \'Adam\''
+s3 = r'Hello, "Bart"'
+s4 = r'''Hello,
+Lisa!'''
+print(n)
+print(f)
+print(s1)
+print(s2)
+print(s3)
+print(s4)
